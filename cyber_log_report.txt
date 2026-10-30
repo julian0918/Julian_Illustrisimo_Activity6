@@ -1,0 +1,51 @@
+
+===== CYBER THREAT LOG REPORT =====
+Name: JULIAN M. ILLUSTRISIMO JR.
+Handle: LIAN_VOID
+Start Time: 2026-10-29 15:20:21.946321
+End Time: 2026-10-29 15:22:13.004427
+Duration (minutes): 1.85
+Score: 5/10
+Rating: INTERMEDIATE
+---- Threat Logs ----
+Threat: Telnet Credential Theft
+ALERT: Failed login attempt detected from 192.168.1.109 on port
+ALERT: Failed login attempt detected from 192.168.1.108 on port
+-------------------
+Threat: DNS Amplification DDoS
+ALERT: Possible brute force attempt detected
+ALERT: Failed login attempt detected from 192.168.1.157 on port
+-------------------
+Threat: POP3 Credential Sniffing
+WARNING: Multiple authentication failures for service
+ALERT: Possible brute force attempt detected
+-------------------
+Threat: Proxy Web Exploit
+ALERT: Failed login attempt detected from 192.168.1.134 on port
+WARNING: Multiple authentication failures for service
+-------------------
+Threat: RDP Brute Force Attack
+WARNING: Multiple authentication failures for service
+ALERT: Possible brute force attempt detected
+-------------------
+Threat: MySQL Data Theft
+WARNING: Multiple authentication failures for service
+NOTICE: Suspicious traffic pattern detected targeting port 
+-------------------
+Threat: SMTP Phishing Campaign
+CRITICAL: Ransomware activity suspected via
+CRITICAL: Ransomware activity suspected via
+-------------------
+Threat: SMB Ransomware Attack
+WARNING: Multiple authentication failures for service
+WARNING: Multiple authentication failures for service
+-------------------
+Threat: HTTP Web Exploit
+CRITICAL: Ransomware activity suspected via
+ALERT: Failed login attempt detected from 192.168.1.36 on port
+-------------------
+Threat: SSH Brute Force Attack
+WARNING: Multiple authentication failures for service
+ALERT: Failed login attempt detected from 192.168.1.176 on port
+-------------------
+===================================
